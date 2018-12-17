@@ -19,7 +19,7 @@ class SearchPage extends React.Component {
                         <button className="close-search">Close</button>
                     </Link>
                     <div className="search-books-input-wrapper">
-                        <input type="text" value={this.props.searchText} onChange={this.props.searchBooksHandler} placeholder="Search by title or author"/>
+                        <input type="text" value={this.props.searchText} onChange={this.props.searchBooksHandler} placeholder="Zde je treba udelat frontu"/>
                     </div>
                 </div>
                 <div className="search-books-results">
